@@ -9,7 +9,7 @@ st.title("BMW Sales Dashboard 2010-2024")
 # Load data
 @st.cache_data
 def load_data():
-    return pd.read_csv("/Users/millicentomondi/Documents/AI_Saturdays_Exercises/EDA_BMW_Sales/BMW_sales.csv")
+    return pd.read_csv("BMW_sales.csv")
 
 df = load_data()
 
