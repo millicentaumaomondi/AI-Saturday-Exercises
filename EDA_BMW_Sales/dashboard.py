@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from pathlib import Path
 
 st.set_page_config(layout="wide")
 st.title("BMW Sales Dashboard 2010-2024")
@@ -9,7 +10,8 @@ st.title("BMW Sales Dashboard 2010-2024")
 # Load data
 @st.cache_data
 def load_data():
-    return pd.read_csv("BMW_sales.csv")
+    csv_path = Path(__file__).resolve().parent / "BMW_sales.csv"
+    return pd.read_csv(csv_path)
 
 df = load_data()
 
