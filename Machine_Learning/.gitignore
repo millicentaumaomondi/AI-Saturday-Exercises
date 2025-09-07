@@ -8,3 +8,4 @@ __pycache__/
 .DS_Store
 logs/
 models/ # If you save trained models, you might want to ignore this directory
+*.zip
