@@ -1,6 +1,6 @@
 # BMW Sales EDA Dashboard
 
-This project provides an interactive dashboard for exploring and analyzing BMW sales data using Streamlit. The dashboard enables users to perform exploratory data analysis (EDA) on a rich dataset of BMW car sales, with interactive filters and a variety of insightful visualizations.
+This project provides an interactive dashboard for exploring and analyzing BMW sales data using Streamlit. The dashboard enables users to perform exploratory data analysis (EDA) on a rich dataset of BMW car sales, with interactive filters and a variety of insightful visualizations. Find the dashboard [here](https://ai-saturday-exercises-q8ael25tq2enhxofcxdhec.streamlit.app/) .
 
 ## Features & EDA Insights
 
